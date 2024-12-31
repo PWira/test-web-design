@@ -90,7 +90,7 @@ button,select {
 }
 
 [type=button],[type=reset],[type=submit],button {
-    -webkit-appearance: button;
+    /* -webkit-appearance: button; */
     background-color: initial;
     background-image: none
 }
@@ -112,7 +112,7 @@ progress {
 }
 
 [type=search] {
-    -webkit-appearance: textfield;
+    /* -webkit-appearance: textfield; */
     outline-offset: -2px
 }
 
@@ -171,7 +171,7 @@ input::placeholder,textarea::placeholder {
 
 audio,canvas,embed,iframe,img,object,svg,video {
     display: block;
-    vertical-align: middle
+    /* vertical-align: middle */
 }
 
 img,video {
@@ -2044,12 +2044,12 @@ a.editor {
     }
 }
 
-@tailwind base;@tailwind components;@tailwind utilities;.xxxl-regular {
+/* @tailwind base;@tailwind components;@tailwind utilities;.xxxl-regular {
     font-style: normal;
     font-weight: 400;
     font-size: 1.25rem;
     line-height: 30px
-}
+} */
 
 .xxxxl-regular {
     font-style: normal
